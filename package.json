@@ -1,0 +1,6 @@
+{
+  "name": "passerelle-export", "version": "1.0.0", "private": true, "type": "module",
+  "description": "A bilingual France-to-UK export preparation workspace for SMEs.",
+  "engines": { "node": ">=22" },
+  "scripts": { "dev": "node server.mjs", "start": "node server.mjs", "test": "node --test tests/*.test.js", "check": "node scripts/check.mjs", "build": "node scripts/build.mjs", "test:e2e": "node scripts/e2e.mjs" }
+}
